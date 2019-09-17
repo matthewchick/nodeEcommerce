@@ -21,7 +21,7 @@ mongoose.connection.on("error", err => {
 }); 
 
 // routes middleware
-app.use("/api", userRoutes);   //use middleware, router instead of the following codes
+app.use("/api", userRoutes);   //use middleware, router instead of the following codes like springBoot @restcontroller
 
 /*
 app.get("/", (req, res) => {
